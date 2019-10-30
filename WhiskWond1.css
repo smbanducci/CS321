@@ -1,0 +1,24 @@
+/*CS321: Web-Centric Programming*/
+/*Shawna Banducci*/
+
+body{
+  background-image:"Desktop/heather-day-art-03.jpg-Shortcut.jpg"
+}
+
+h1{
+  color: navy;
+  font-family: 'Italiana', serif;
+  /*font-family: 'Petit Formal Script', cursive;
+  /*margin-left: 10px;*/
+}
+h3{
+  color:navy;
+}
+h2{
+  color:navy;
+}
+p{
+  color:navy;
+}
+body{
+  font-family: 'Raleway', sans-serif;
