@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+ <link href="https://fonts.googleapis.com/css?family=Italiana|Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link src=forms.js type=text/javascript
+
+  <title>The Whiskful Wanderer</title>
+  <meta charset="utf-8">
+</head>
+<!--Utilized codeacademy to help with divisions, img add, video add, etc. -->
+
+<body>
+  <header class= "siteTitle">
+    <!--<nav role="navigation"></nav> -->
+      <h1>
+        Welcome to the Whiskful Wanderer!
+      </h1>
+      <!--want the img to be centered under the title-->
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZtaDpTSUMscrBw2YoQhW0PvC5dL-4n8pkj5ZVK2zp4ie_odYo" alt="rose gold kitchen gadgets" class="center">
+      <h3><em>All things food; recipes, ingredients, places to eat, things to cook with and tips and tricks to having a delicious life!</em></h3>
+  </header>
+  <ul>
+    <!-- 1st 3 on 1st page -->
+    <!-- a href= "" -->
+    <li>Current Recipe</li>
+    <li>Featured Video</li>
+    <li>About Site</li>
+    <li>About Me</li>
+    <!-- Links to other pages w/i site -->
+    <li>Recipe Collection</li>
+    <li>Tools</li>
+    <li>Reviews</li>
+  </ul>
+  <h3><strong>Current Recipe</strong></h3>
+  <div id="most recent recipe for site">
+    <h4>Recipe Name</h4>
+    <span>Short description of recipe.</span><br><br>
+    <!-- These 2 items are internal for the site and will need to be apart of the project folder, each new recipe will need to be an item w/i the folder -->
+    <a href="">Ingredients</a>
+    <br>
+    <a href="">Directions</a>
+    <p>This is going to be an image of the dish</p>
+    <!-- <img> This is where I would include a photo of the finished, plated dish-->
+    <p>Long description of why I chose this recipe and any variations I've taken to make it my own. What situation this recipe is good to make in. Other alterations a person could make to it.<br><br>Ingredients:
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+      </ul>
+      Directions:
+      <br>
+      <ol>
+        <li>Direction 1</li>
+        <li>Direction 2</li>
+        <li>Direction 3</li>
+        <li>Direction 4</li>
+        <li>Direction 5</li>
+        <li>Direction 6</li>
+    </p>
+  </div>
+  <h3>Featured Site & Video</h3>
+  <div id="site">
+    <h4>Site</h4>
+    <p>An incredibly helpful site to begin your cooking advenuture is <a href="https://www.bonappetit.com/collection/basics" target="_blank"> BA Basics</a> from Bon Appetit. They breakdown things like which gadgets to use, meal prepping, and how to stock
+      your pantry.</p>
+  </div>
+  <div id="video">
+    <h4>Video</h4>
+    <p>Description of why I've chosen this video to be on the site. It's usefulness in some way or how it pertains to food.</p>
+    <!--video chosen is basics with babish, an intro to how to start cooking - it's not playing from codepen site, will there need to be something special I do to link youtube videos? -->
+    <video src="https://www.youtube.com/watch?v=1AxLzMJIgxM&list=PLopY4n17t8RD-xx0UdVqemiSa0sRfyX19&index=1" width="420" height="340" controls>
+      Video not supported
+  </div>
+  <h3>About the Site</h3>
+  <div id="introduction to site">
+    <p>I've spent <em>a lot</em> of time cooking and need somewhere to put all the things I've learned, come across, and enjoyed. This will be a hodgepodge of everything I come across food wise. I hope you enjoy! This site is for anyone who interacts with
+      food, so that means everyone! Ideally you want to eat good food, because while we do have to eat why not eat delicious food. Sure, food is fuel, but with a little effort food also gets to taste amazing!</p>
+  </div>
+  <h3>About Me</h3>
+  <div id="introduction to creator">
+    <p>Currently I am an undergraduate student pursuing a degree in Information Technology and will go into a master's degree in Library and Information Sciences after. While libraries are what I want to spend my life's working doing - food and cooking are
+      one of, if not, my greatest passions in life. Food represents a universal truth in everyone's existance; we all have to eat. It is deeply engrained within our society as a way to connect with are given and chosen families. Food is how I show my
+      love for others, if I'm willing to make you a meal, dessert, or share food with you it definitely means I like you. Or at the very least tolerate your presence ;). Given that we all have to eat, why not eat well and enjoy it.<br><br>Basically my goal in life is to be <a href="https://barefootcontessa.com/about" target="_blank">Ina Garten</a> without any<a href="https://wearemitu.com/culture/latino-twitter-is-dragging-food-network-star-for-her-white-washed-pozole-recipe/" target="_blank"> cultural appropriation</a>.</p>
+    <h3>Contact Me</h3>
+    <form method="get">
+        <h2>Need to reach out to us?</h2>
+        <p>Enter your information below and a short comment on why you're
+          contacting us and I'll get back to you! Cheers!</p>
+
+        <method="get" action="greet_user.php">
+      Name:
+      <input type="text" name="name">
+      <input type="submit" value="Submit">
+      <br>
+      <br>
+      Email:
+      <input type="text" name="email">
+      <input type="submit" value="Submit">
+      <br>
+      <br>
+      Want to share your phone number with us?
+        <!--Boolean if yes open prompt for entering phone number
+        else do not open prompt -->
+      <br>
+      Phone:
+      <input type="text" name="phone">
+      <input type="submit" value="Submit">
+      <br>
+      <br>
+      Check here if you would like to recieve updates from the site:
+      <br>
+      <!--check box yes -->
+      <!--check box yes -->
+      </form>
+      <a href="index.php">Reset</a>
+  </div>
+</body>
+</html>
