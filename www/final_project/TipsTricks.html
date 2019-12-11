@@ -1,0 +1,62 @@
+<!-- CS321: Web-Centric Programming -->
+<!-- Shawna Banducci -->
+
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>Tips & Tricks</title>
+    <link href="https://fonts.googleapis.com/css?family=Italiana|Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="whiskWond.css">
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <!--https://www.w3schools.com/howto/howto_css_dropdown.asp-->
+    <div class="dropdown" style="float:left;">
+      <button class="dropbtn">MENU</button>
+      <div class="dropdown-content" style="left:0;">
+        <a href="whiskWond.html">Home</a>
+        <a href="CurrRec.html">Current Recipe</a>
+        <a href="Site-Videos.html">Featured Site and Videos</a>
+        <a href="Recp_Coll.html">Recipe Collection</a>
+        <a href="contactFormWW.php">Contact Me</a>
+      </div>
+    </div>
+    
+    <div class="header">
+        <div class="JoiningSiteTitle">
+          <strong>Recipe Collection</strong>
+        </div>
+    </div>
+        <div class="recpSite">
+          <!--Hello! You've come across a page in progress. As time goes on this page
+        will include more as more recipes are added to the site.
+        <p></p>
+          Thanks for visiting!-->
+
+        <p>Welcome to tips and tricks for home cooks from the Whiskful Wonderer!</p>
+        <p>Take a look at the recipes below, want to look at tip? Just click on the title.</p>
+
+        <form action="TipsTricks.php" method="post">
+          <select name="tipTrickChoice">
+            <option value="0">Select...</option>
+            <option value="1">Preserve Your Herbs </option>
+            <option value="2">Don't Waste Another Loaf </option>
+            <option value="3">Easy Squeezy </option>
+            <option value="4">Zest the Best </option>
+            <option value="5">Not a Tough Egg to Scramble </option>
+            <option value="6">You're Bacon Me Crazy </option>
+            <option value="7">Olive Oil and You Can Too </option>
+            <option value="8">Keepin' the Green </option>
+            <option value="9">Waste Not, Want Fond </option>
+            <option value="10">Don't Sass the Cast</option>
+          </select>
+          <br />
+
+          <input type="submit" value="submit" />
+
+        </form>
+      </div>
+  </body>
+</html>

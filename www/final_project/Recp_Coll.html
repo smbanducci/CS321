@@ -1,0 +1,63 @@
+<!-- CS321: Web-Centric Programming -->
+<!-- Shawna Banducci -->
+
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>Recipe Collection</title>
+    <link href="https://fonts.googleapis.com/css?family=Italiana|Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="whiskWond.css">
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <!--https://www.w3schools.com/howto/howto_css_dropdown.asp-->
+    <div class="dropdown" style="float:left;">
+      <button class="dropbtn">MENU</button>
+      <div class="dropdown-content" style="left:0;">
+        <a href="whiskWond.html">Home</a>
+        <a href="CurrRec.html">Current Recipe</a>
+        <a href="Site-Videos.html">Featured Site and Videos</a>
+        <a href="TipsTricks.html">Tips & Tricks</a>
+        <a href="contactFormWW.php">Contact Me</a>
+      </div>
+    </div>
+    
+    <div class="header">
+        <div class="JoiningSiteTitle">
+          <strong>Recipe Collection</strong>
+        </div>
+    </div>
+        <div class="recpSite">
+          <!--Hello! You've come across a page in progress. As time goes on this page
+        will include more as more recipes are added to the site.
+        <p></p>
+          Thanks for visiting!-->
+
+        <p>Welcome to the recipe collection for the Whiskful Wonderer!</p>
+        <p>Take a look at the recipes below, want to look at specific recipe? Just click on the recipe.</p>
+        <p>Currently only the chocolate chip cookie and rice recipes are populated, please select one of those.</p>
+
+        <form action="Recp_Coll.php" method="post">
+          <select name="recipeChoice">
+            <option value="0">Select...</option>
+            <option value="1">Ad Hoc Chocolate Chip Cookies </option>
+            <option value="2">Mexican Rice </option>
+            <option value="3">Carbonara on Over </option>
+            <option value="4">Garlic Confit </option>
+            <option value="5">Sausage Stuffing </option>
+            <option value="6">Best Fluffy, Flakey, Buttery Biscuits Ever </option>
+            <option value="7">Cast-Iron Steak </option>
+            <option value="8">Refried Beans </option>
+            <option value="9">Chorizo & Eggs </option>
+            <option value="10">Fried Eggs</option>
+          </select>
+          <br />
+
+          <input type="submit" value="submit" />
+
+        </form>
+      </div>
+  </body>
+</html>
